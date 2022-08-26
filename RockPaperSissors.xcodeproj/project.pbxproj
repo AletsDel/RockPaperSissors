@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212A20AF28B5514B00AA670C /* Flecha1.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A20AE28B5514B00AA670C /* Flecha1.png */; };
+		212A20B628B5523B00AA670C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212A20B528B5523B00AA670C /* Game.swift */; };
+		212C1FD028B8684F0000705C /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 212C1FCF28B8684F0000705C /* reset.png */; };
+		2143C64C28B3F6FF00431128 /* squirtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C64528B3F6FF00431128 /* squirtle.png */; };
+		2143C64E28B3F6FF00431128 /* charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C64728B3F6FF00431128 /* charmander.png */; };
+		2143C64F28B3F6FF00431128 /* bulbasaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C64828B3F6FF00431128 /* bulbasaur.png */; };
+		2143C65028B3F6FF00431128 /* PokemonStadium.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C64928B3F6FF00431128 /* PokemonStadium.png */; };
+		2143C66328B4032F00431128 /* Flecha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C66228B4032F00431128 /* Flecha2.png */; };
+		2143C66828B4033A00431128 /* Flecha3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C66728B4033A00431128 /* Flecha3.png */; };
+		2143C66D28B4040D00431128 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C66C28B4040D00431128 /* Logo.png */; };
+		2143C67228B4042000431128 /* Rock, Paper, Scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 2143C67128B4042000431128 /* Rock, Paper, Scissors.png */; };
 		21A4033128AF0FC10085F369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A4033028AF0FC10085F369 /* AppDelegate.swift */; };
 		21A4033328AF0FC10085F369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A4033228AF0FC10085F369 /* SceneDelegate.swift */; };
-		21A4033528AF0FC10085F369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A4033428AF0FC10085F369 /* ViewController.swift */; };
 		21A4033828AF0FC10085F369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A4033628AF0FC10085F369 /* Main.storyboard */; };
 		21A4033A28AF0FC20085F369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A4033928AF0FC20085F369 /* Assets.xcassets */; };
 		21A4033D28AF0FC20085F369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A4033B28AF0FC20085F369 /* LaunchScreen.storyboard */; };
 		21A4034828AF0FC30085F369 /* RockPaperSissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A4034728AF0FC30085F369 /* RockPaperSissorsTests.swift */; };
 		21A4035328AF0FC30085F369 /* RockPaperSissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A4035228AF0FC30085F369 /* RockPaperSissorsUITests.swift */; };
+		21E7AD9628B7DE1400AB51A3 /* vs.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7AD9528B7DE1400AB51A3 /* vs.png */; };
+		21E7ADA328B7E0AE00AB51A3 /* pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7ADA228B7E0AE00AB51A3 /* pokeball.png */; };
+		21E7ADAB28B7ED6500AB51A3 /* rematch.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7ADAA28B7ED6400AB51A3 /* rematch.png */; };
+		21E7ADB028B7F15D00AB51A3 /* rematch.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7ADAF28B7F15D00AB51A3 /* rematch.png */; };
+		21E7ADB728B7F31300AB51A3 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7ADB428B7F31300AB51A3 /* YouWin.png */; };
+		21E7ADB828B7F31300AB51A3 /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7ADB528B7F31300AB51A3 /* YouLose.png */; };
+		21E7ADB928B7F31300AB51A3 /* Draw.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7ADB628B7F31300AB51A3 /* Draw.png */; };
+		21E7ADC428B7F75C00AB51A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E7ADC328B7F75C00AB51A3 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		212A20AE28B5514B00AA670C /* Flecha1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flecha1.png; path = ../../../Pokemon/Flecha1.png; sourceTree = "<group>"; };
+		212A20B528B5523B00AA670C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		212C1FCF28B8684F0000705C /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reset.png; path = ../../../Pokemon/reset.png; sourceTree = "<group>"; };
+		2143C64528B3F6FF00431128 /* squirtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squirtle.png; path = ../../../Pokemon/squirtle.png; sourceTree = "<group>"; };
+		2143C64728B3F6FF00431128 /* charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmander.png; path = ../../../Pokemon/charmander.png; sourceTree = "<group>"; };
+		2143C64828B3F6FF00431128 /* bulbasaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bulbasaur.png; path = ../../../Pokemon/bulbasaur.png; sourceTree = "<group>"; };
+		2143C64928B3F6FF00431128 /* PokemonStadium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PokemonStadium.png; path = ../../../Pokemon/PokemonStadium.png; sourceTree = "<group>"; };
+		2143C66228B4032F00431128 /* Flecha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flecha2.png; path = ../../../../Downloads/Flecha2.png; sourceTree = "<group>"; };
+		2143C66728B4033A00431128 /* Flecha3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flecha3.png; path = ../../../../Downloads/Flecha3.png; sourceTree = "<group>"; };
+		2143C66C28B4040D00431128 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../Pokemon/Logo.png; sourceTree = "<group>"; };
+		2143C67128B4042000431128 /* Rock, Paper, Scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rock, Paper, Scissors.png"; path = "../../../Pokemon/Rock, Paper, Scissors.png"; sourceTree = "<group>"; };
 		21A4032D28AF0FC10085F369 /* RockPaperSissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperSissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A4033028AF0FC10085F369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21A4033228AF0FC10085F369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21A4033428AF0FC10085F369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21A4033728AF0FC10085F369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21A4033928AF0FC20085F369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A4033C28AF0FC20085F369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +77,14 @@
 		21A4034E28AF0FC30085F369 /* RockPaperSissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperSissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A4035228AF0FC30085F369 /* RockPaperSissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperSissorsUITests.swift; sourceTree = "<group>"; };
 		21A4035428AF0FC30085F369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E7AD9528B7DE1400AB51A3 /* vs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vs.png; path = ../../../Pokemon/vs.png; sourceTree = "<group>"; };
+		21E7ADA228B7E0AE00AB51A3 /* pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokeball.png; path = ../../../Pokemon/pokeball.png; sourceTree = "<group>"; };
+		21E7ADAA28B7ED6400AB51A3 /* rematch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rematch.png; path = ../../../Pokemon/rematch.png; sourceTree = "<group>"; };
+		21E7ADAF28B7F15D00AB51A3 /* rematch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rematch.png; path = ../../../Pokemon/rematch.png; sourceTree = "<group>"; };
+		21E7ADB428B7F31300AB51A3 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouWin.png; path = ../../../Pokemon/YouWin.png; sourceTree = "<group>"; };
+		21E7ADB528B7F31300AB51A3 /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouLose.png; path = ../../../Pokemon/YouLose.png; sourceTree = "<group>"; };
+		21E7ADB628B7F31300AB51A3 /* Draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Draw.png; path = ../../../Pokemon/Draw.png; sourceTree = "<group>"; };
+		21E7ADC328B7F75C00AB51A3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +112,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212A20B328B551A200AA670C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				212A20B428B551E900AA670C /* ValueObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		212A20B428B551E900AA670C /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				212A20B528B5523B00AA670C /* Game.swift */,
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		2143C64328B3F68F00431128 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				21E7ADB628B7F31300AB51A3 /* Draw.png */,
+				21E7ADB528B7F31300AB51A3 /* YouLose.png */,
+				21E7ADB428B7F31300AB51A3 /* YouWin.png */,
+				21E7ADAA28B7ED6400AB51A3 /* rematch.png */,
+				21E7ADA228B7E0AE00AB51A3 /* pokeball.png */,
+				21E7AD9528B7DE1400AB51A3 /* vs.png */,
+				212C1FCF28B8684F0000705C /* reset.png */,
+				2143C67128B4042000431128 /* Rock, Paper, Scissors.png */,
+				21E7ADAF28B7F15D00AB51A3 /* rematch.png */,
+				2143C66C28B4040D00431128 /* Logo.png */,
+				212A20AE28B5514B00AA670C /* Flecha1.png */,
+				2143C66228B4032F00431128 /* Flecha2.png */,
+				2143C66728B4033A00431128 /* Flecha3.png */,
+				2143C64828B3F6FF00431128 /* bulbasaur.png */,
+				2143C64728B3F6FF00431128 /* charmander.png */,
+				2143C64928B3F6FF00431128 /* PokemonStadium.png */,
+				2143C64528B3F6FF00431128 /* squirtle.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		21A4032428AF0FC10085F369 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +175,11 @@
 		21A4032F28AF0FC10085F369 /* RockPaperSissors */ = {
 			isa = PBXGroup;
 			children = (
+				212A20B328B551A200AA670C /* Model */,
+				2143C64328B3F68F00431128 /* Assets */,
 				21A4033028AF0FC10085F369 /* AppDelegate.swift */,
 				21A4033228AF0FC10085F369 /* SceneDelegate.swift */,
-				21A4033428AF0FC10085F369 /* ViewController.swift */,
+				21E7ADC328B7F75C00AB51A3 /* ViewController.swift */,
 				21A4033628AF0FC10085F369 /* Main.storyboard */,
 				21A4033928AF0FC20085F369 /* Assets.xcassets */,
 				21A4033B28AF0FC20085F369 /* LaunchScreen.storyboard */,
@@ -231,9 +309,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2143C67228B4042000431128 /* Rock, Paper, Scissors.png in Resources */,
+				21E7ADA328B7E0AE00AB51A3 /* pokeball.png in Resources */,
+				21E7ADB828B7F31300AB51A3 /* YouLose.png in Resources */,
 				21A4033D28AF0FC20085F369 /* LaunchScreen.storyboard in Resources */,
+				21E7AD9628B7DE1400AB51A3 /* vs.png in Resources */,
+				2143C64F28B3F6FF00431128 /* bulbasaur.png in Resources */,
+				2143C64C28B3F6FF00431128 /* squirtle.png in Resources */,
+				2143C66828B4033A00431128 /* Flecha3.png in Resources */,
 				21A4033A28AF0FC20085F369 /* Assets.xcassets in Resources */,
+				21E7ADAB28B7ED6500AB51A3 /* rematch.png in Resources */,
+				21E7ADB028B7F15D00AB51A3 /* rematch.png in Resources */,
+				212C1FD028B8684F0000705C /* reset.png in Resources */,
+				21E7ADB728B7F31300AB51A3 /* YouWin.png in Resources */,
+				212A20AF28B5514B00AA670C /* Flecha1.png in Resources */,
+				2143C66D28B4040D00431128 /* Logo.png in Resources */,
+				2143C65028B3F6FF00431128 /* PokemonStadium.png in Resources */,
 				21A4033828AF0FC10085F369 /* Main.storyboard in Resources */,
+				2143C64E28B3F6FF00431128 /* charmander.png in Resources */,
+				2143C66328B4032F00431128 /* Flecha2.png in Resources */,
+				21E7ADB928B7F31300AB51A3 /* Draw.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A4033528AF0FC10085F369 /* ViewController.swift in Sources */,
 				21A4033128AF0FC10085F369 /* AppDelegate.swift in Sources */,
 				21A4033328AF0FC10085F369 /* SceneDelegate.swift in Sources */,
+				21E7ADC428B7F75C00AB51A3 /* ViewController.swift in Sources */,
+				212A20B628B5523B00AA670C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
